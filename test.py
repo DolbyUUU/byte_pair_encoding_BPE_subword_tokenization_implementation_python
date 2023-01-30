@@ -1,5 +1,7 @@
+from BPE import BPE
+
 # import the Wikipedia corpus used for training
-with open('wiki_corpus.txt') as f:
+with open('wiki_corpus.txt', encoding="utf8") as f:
     corpus = f.readlines()
     print(corpus[:5])
 
