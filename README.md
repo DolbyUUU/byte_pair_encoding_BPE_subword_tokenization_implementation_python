@@ -4,9 +4,14 @@
 - `BPE.py`:  Byte-Pair Encoding: Subword-based tokenization algorithm
 
 ## Training and inference:  
-- `test.py`: test with a paragraph of text  
+- `test.py`: test with a paragraph of text
+
+## Corpus for training
+- `wiki_corpus.txt`: a short Wikipedia corpus
 
 The vocabulary size, i.e. the base vocabulary size + the number of merges, is a hyperparameter to choose.
+
+For Wikipedia corpus for training, you can use PyTorch WikiText-2 (37k lines) or WikiText103 (1.8m lines).
 
 BPE tokenization result of text
 'Love, hate, or feel meh about Harry Potter, it’s hard to argue that J.K. Rowling filled the books with intentional writing choices. From made up words to the meanings of names to the well-scripted first and last lines of each novel, Rowling wanted to the writing to match the intricate fantasy world she created for the now-iconic boy wizard. To examine a few of these choices, I’ll be taking a closer look at the first line of Harry Potter, as well as the last lines, from all of the Harry Potter novels.'
