@@ -1,13 +1,13 @@
 # Byte-Pair Encoding (BPE) (subword-based tokenization) algorithm implementaions from scratch with python
 
-## Python implementations:  
+## Python implementation:  
 - `BPE.py`:  Byte-Pair Encoding: Subword-based tokenization algorithm
 
 ## Training and inference:  
-- `test.py`: test with a paragraph of text
+- `test.py`: train with corpus and test with given text
 
-## Corpus for training
-- `wiki_corpus.txt`: a short Wikipedia corpus
+## Corpus
+- `wiki_corpus.txt`: a short Wikipedia corpus for training
 
 The vocabulary size, i.e. the base vocabulary size + the number of merges, is a hyperparameter to choose.
 
